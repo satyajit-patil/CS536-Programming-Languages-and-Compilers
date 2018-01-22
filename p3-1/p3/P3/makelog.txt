@@ -1,0 +1,21 @@
+java   java_cup.Main < moo.cup
+java   java_cup.Main < moo.cup -debug
+javac  ast.java
+javac    sym.java
+java    JLex.Main moo.jlex
+Processing first section -- user code.
+Processing second section -- JLex declarations.
+Processing third section -- lexical rules.
+Creating NFA machine representation.
+NFA comprised of 274 states.
+Working on character classes.::.:::::..:.:::::.:.....:..............::.........::.:..::::.......................:::.:.::::::::.:.:.:...:.::.:.:..........:.
+NFA has 46 distinct character classes.
+Creating DFA transition table.
+Working on DFA states...........................................................................................................
+Minimizing DFA transition table.
+94 states after removal of redundant states.
+Outputting lexical analyzer code.
+javac ErrMsg.java
+javac   moo.jlex.java
+javac      parser.java
+javac    P3.java
