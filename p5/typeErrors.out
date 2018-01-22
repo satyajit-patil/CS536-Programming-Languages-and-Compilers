@@ -1,0 +1,127 @@
+bool globalBool;
+struct st1{
+    int fieldInt1;
+};
+
+struct st1 globalSt;
+void function(int para1, bool para2) {
+}
+
+void main() {
+    int localInt1;
+    localInt1(int) = (function(int,bool->void) + function(int,bool->void));
+    globalBool(bool) = (function(int,bool->void) == 3);
+    globalBool(bool) = (function(int,bool->void) > main(->void));
+    globalBool(bool) = (function(int,bool->void) == function(int,bool->void));
+    localInt1(int)();
+    function(int,bool->void)(5);
+    function(int,bool->void)(localInt1(int), localInt1(int));
+    function(int,bool->void)(globalSt(st1), globalSt(st1).fieldInt1(int));
+    st1(struct)();
+    globalSt(st1) = 5;
+    globalSt(st1) = globalSt(st1);
+    cin >> st1(struct);
+    globalBool(bool) = (st1(struct) && 25);
+    return 10;
+    localInt1(int) = (localInt1(int) + (!false));
+    localInt1(int) = (localInt1(int) + "concat");
+    globalBool(bool) = localInt1(int);
+    globalBool(bool) = ((localInt1(int) + true) && (globalBool(bool) < true));
+}
+
+int globalInt;
+void function1() {
+    return;
+}
+
+void function2(int para1, int para2, bool para3, bool para4) {
+    cout << function1(->void);
+    cout << st1(struct);
+    cout << globalSt(st1);
+    cout << function1(->void)();
+    cin >> function1(->void);
+    cin >> st1(struct);
+    cin >> globalSt(st1);
+    st1(struct)();
+    function1(->void)(para1(int));
+    function(int,bool->void)(para1(int));
+    para1(int) = (para4(bool) + para1(int));
+    para1(int) = (para2(int) - para3(bool));
+    para1(int) = (para4(bool) * para1(int));
+    para1(int) = (-(para2(int) / para3(bool)));
+    para3(bool)++;
+    para4(bool)--;
+    para1(int) = ((-para3(bool)) - ((para1(int) * para4(bool)) / (-para3(bool))));
+    para3(bool) = (para1(int) > para3(bool));
+    para3(bool) = (para3(bool) < para3(bool));
+    para3(bool) = (para1(int) >= para3(bool));
+    para3(bool) = (para3(bool) <= para3(bool));
+    para3(bool) = (para1(int) || para2(int));
+    para3(bool) = (para1(int) && para2(int));
+    para3(bool) = (para1(int) || (para2(int) && para1(int)));
+    para3(bool) = ((!para1(int)) || para2(int));
+    para3(bool) = (!para1(int));
+    if (para1(int)) {
+        if ((para1(int) + para2(int))) {
+        }
+        else {
+        }
+    }
+    if (((para1(int) + ((para2(int) * para2(int)) / para1(int))) - para1(int))) {
+    }
+    while (para1(int)) {
+        while (((para1(int) + ((para2(int) * para2(int)) / para1(int))) - para1(int))) {
+        }
+    }
+    para3(bool) = (para1(int) == para4(bool));
+    para3(bool) = (para1(int) != para4(bool));
+    para3(bool) = (function1(->void)() == function1(->void)());
+    if ((function1(->void)() != function1(->void)())) {
+    }
+    while ((function1(->void) == function1(->void))) {
+    }
+    para3(bool) = (function1(->void) != function1(->void));
+    if ((st1(struct) == st1(struct))) {
+        while ((st1(struct) != st1(struct))) {
+        }
+    }
+    para3(bool) = (globalSt(st1) == globalSt(st1));
+    para4(bool) = (globalSt(st1) != globalSt(st1));
+    function1(->void) = function1(->void);
+    st1(struct) = st1(struct);
+    globalSt(st1) = globalSt(st1);
+    return;
+}
+
+int function3() {
+    return;
+}
+
+void function4() {
+    return 0;
+}
+
+int function5() {
+    return true;
+}
+
+void function6() {
+    cout << (function(int,bool->void) + 1);
+    globalSt(st1).fieldInt1(int) = ((true + 3) * 4);
+    globalBool(bool) = (true && (false || 3));
+    function(int,bool->void)(("a" * 4));
+    globalSt(st1).fieldInt1(int) = (1 + function(int,bool->void)());
+    if (((true + 3) == globalSt(st1).fieldInt1(int))) {
+    }
+    globalSt(st1).fieldInt1(int) = (true + "hello");
+    globalSt(st1).fieldInt1(int) = (1 + function(int,bool->void)(true, 1));
+    globalSt(st1).fieldInt1(int) = (1 + function(int,bool->void)(1));
+    return (3 + true);
+    globalSt(st1).fieldInt1(int) = "here";
+    globalBool(bool) = "shit";
+    function(int,bool->void) = "what";
+    globalSt(st1).fieldInt1(int) = (globalSt(st1).fieldInt1(int) + "hahaha");
+    globalBool(bool) = ((((globalSt(st1).fieldInt1(int) == true) || true) && true) != true);
+    globalBool(bool) = ((((globalSt(st1).fieldInt1(int) && true) || true) && true) == true);
+}
+

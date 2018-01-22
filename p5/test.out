@@ -1,0 +1,100 @@
+int globalInt;
+bool globalBool;
+struct st1{
+    int fieldInt1;
+    bool fieldBool1;
+};
+
+struct st2{
+    int fieldInt2;
+    bool fieldBool2;
+    struct st1 stIns1;
+};
+
+struct st3{
+    int fieldInt3;
+    bool fieldBool3;
+    struct st2 stIns2;
+};
+
+struct st3 globalSt;
+int function1(int para1, bool para2) {
+    int localInt1;
+    int localInt2;
+    bool globalFlag;
+    globalInt(int) = 25;
+    globalFlag(bool) = true;
+    para1(int) = (localInt1(int) + localInt2(int));
+    para1(int) = (localInt1(int) - localInt2(int));
+    para1(int) = (localInt1(int) * localInt2(int));
+    para1(int) = (localInt1(int) / localInt2(int));
+    para1(int) = (-localInt1(int));
+    para1(int) = (localInt1(int) - (-(localInt1(int) / localInt2(int))));
+    para1(int) = (localInt1(int) = localInt2(int));
+    para1(int) = ((localInt1(int) - ((localInt1(int) * localInt1(int)) / localInt1(int))) + localInt1(int));
+    globalFlag(bool) = (localInt1(int) == localInt2(int));
+    globalFlag(bool) = (localInt1(int) != localInt2(int));
+    globalFlag(bool) = (localInt1(int) > localInt2(int));
+    globalFlag(bool) = (localInt1(int) < localInt2(int));
+    globalFlag(bool) = (localInt1(int) >= localInt2(int));
+    globalFlag(bool) = (localInt1(int) <= localInt2(int));
+    localInt1(int)++;
+    localInt1(int)--;
+    globalSt(st3).fieldBool3(bool) = false;
+    globalSt(st3).stIns2(st2).stIns1(st1).fieldInt1(int) = 10;
+    globalSt(st3).stIns2(st2).fieldInt2(int) = 22;
+    if ((para1(int) == localInt1(int))) {
+    }
+    if (true) {
+        int testIfDecl1;
+        int testIfDecl2;
+        testIfDecl1(int) = testIfDecl2(int);
+    }
+    if (false) {
+        bool testIfElseDecl;
+    }
+    else {
+        bool testIfElseDecl;
+    }
+    while ((localInt1(int) == localInt2(int))) {
+        int testWhileDecl;
+        bool testWhileDeclBool;
+        cin >> localInt1(int);
+        cout << "OUTPUT";
+    }
+    return (localInt1(int) + localInt2(int));
+}
+
+int function2(int para1, bool para2) {
+    int x;
+    x(int) = function1(int,bool->int)(para1(int), para2(bool));
+    return x(int);
+}
+
+bool function3(bool para1) {
+    para1(bool) = false;
+    return para1(bool);
+}
+
+void function4() {
+}
+
+void function5() {
+    globalInt(int) = function1(int,bool->int)(3, false);
+    if (true) {
+        function4(->void)();
+        while (true) {
+            function4(->void)();
+        }
+    }
+}
+
+void function6(int para1, bool para2, int para3, int para4) {
+    int int1;
+    bool bool1;
+    cout << int1(int);
+    cout << bool1(bool);
+    cin >> int1(int);
+    cin >> bool1(bool);
+}
+
