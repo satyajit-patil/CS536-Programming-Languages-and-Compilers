@@ -1,0 +1,10 @@
+{ } ( ) , . = ; + - * / ! < > ++ -- && || == != <= >= { << >>
+bool int void true false struct cin cout if else while return
+identifier anotherIdentifier12
+"string line 4, char 1" "string line 4 char 25" "string line 4 char 49"
+"string line 5, char 1"   "string line 5 char 27"
+"string line 6, char 1, newline symbol \n "  "string line 6, char 46"
+// comment
+# another comment
+1234
+     			"string after 5 spaces, 2 tabs"

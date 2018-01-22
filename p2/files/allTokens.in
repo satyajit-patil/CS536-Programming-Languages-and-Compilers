@@ -1,0 +1,80 @@
+{
+}
+(
+)
+,
+=
+;
++
+-
+*
+/
+++
+--
+!
+&&
+||
+==
+!=
+<
+>
+<=
+>=
+<<
+>>
+
+bool
+int
+void
+true
+false
+struct
+cin
+cout
+if
+else
+while
+return
+
+id5_asd
+id4
+id3_
+3id
+_id
+_id3
+_id3_
+i_d3
+
+1234
+
+.
+
+"hello"
+"newline \n"
+"tab \t"
+"single quote \'"
+"double quote \""
+"question mark \?"
+"backslash \\"
+""
+"&!88"
+"use \n to denote a newline character"
+"include a quote like this \" and a backslash like this \\"
+
+//This is a comment, it should be ignored
+# and so is this
+
+&
+@
+11111111111111111111111111111111111111111111111111111111
+3illegalIdentifier
+"unterminated
+"also unterminated \"
+"backslash followed by space: \ is not allowed"
+"bad escaped character: \a "
+"bad escaped character: \a AND not terminated
+"newline after backslash \
+abc
+"newline after newline \n
+xyz
+"another unterminated string because of EOF
